@@ -3,6 +3,8 @@
 
 This repo demonstrates how to send the `do javascript` command to Photoshop with parameters and get a result or error via the traditional call chain.
 
+This demonstration runs on MacOS, although it is possible do something similar on Windows using VB instead of AppleScript.
+
 It uses `osascript` to call an AppleScript which is a liaison between ruby and Photoshop.
 
 To test it out, clone the repo, cd into the directory and run `ruby ruby_code.rb`. Photoshop will display an alert for each parameter. You can test throwing a `PhotoshopJsxError` in the last alert dialog.
