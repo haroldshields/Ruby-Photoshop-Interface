@@ -5,7 +5,7 @@ require 'open3'
 # setup
 project_dir = File.expand_path(File.dirname(__FILE__))
 path_to_applescript = "#{project_dir}/execute_script.applescript"
-path_to_jsx_script = "#{project_dir}/sample_photoshop_javascript.jsx"
+path_to_jsx_script = "#{project_dir}/sample_photoshop_javascript_for_mac.jsx"
 script_timeout = 30
 # jsx params array can contain any number of strings or numbers only
 jsx_params = ['Hello world', 7.5, 'Another parameter.']
