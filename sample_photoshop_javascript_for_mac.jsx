@@ -1,4 +1,4 @@
-// sample jsx code.
+// sample jsx code for Macintosh.
 
 // do something with the parameters.
 for (var i = 0; i < arguments.length; i++) {
@@ -12,4 +12,4 @@ if (confirm('Would you like to test throwing an error?')) {
 }
 
 // return a result.
-'This is the result from Photoshop.';
+'This is the result from Photoshop for Macintosh.';
